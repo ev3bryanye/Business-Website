@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+ <title>Redirect Button</title>
+ <style>
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #72cf30;
+      color: white;
+      border: none;
+      border-radius: 0px;
+      cursor: pointer;
+    }
+
+  </style>
+</head>  
+</head>
+<body>
+      <button onclick="redirectToProducts()">Products</button>
+      <button onclick="redirectToAboutus">About Us</button>
+    <button onclick="redirectTocontact">Contact Us</button>
+
+    
+  <script>
+    function redirectToProducts() {
+      window.location.href = 'product.html';
+    }
+    function redirectToAboutus() {
+        window.location.href = 'aboutus.html'
+    }
+    function redirectTocontact() {
+        window.location.href = 'contact.html'
+    }
+    </script>
 
