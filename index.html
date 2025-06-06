@@ -5,14 +5,18 @@
 <body>
 
   <head>
-  <button onclick="redirectToAboutus">About Us</button>
-<button onclick="redirectTocontact">Contact Us</button>
+  <button onclick="redirectToAboutus()">About Us</button>
+<button onclick="redirectToContact()">Contact Us</button>
+<button onclick="redirectToIndex()">Homepage</button>
       <script>
 function redirectToAboutus() {
     window.location.href = 'aboutus.html'
 }
-function redirectTocontact() {
+function redirectToContact() {
     window.location.href = 'contact.html'
+}
+function redirectToIndex() {
+  window.location.href = 'index.html'
 }
 </script>
 </head> 
@@ -41,6 +45,10 @@ function redirectTocontact() {
   font-size: 25px;
   text-shadow:1px 1px darkseagreen;
 }
+.image {
+  margin-left: 475px;
+  background-color: #2d6a4f;
+}
 </style>
 <hr> 
 <h1 class="big">
@@ -48,7 +56,7 @@ Welcome to Autosprout! <br>
 </h1>
 <p class="slogan"><i>Wherever you go, your plants will grow!</i></p>
 <br>
-<img src="logo.png" width="500" height="500">
+<img class="image" src="logo.png" width="500" height="500">
 
 <div class="section"> 
 <p2 class="middle">
@@ -63,9 +71,10 @@ Well, introducing Autosprout your plant will never be malnourished again! Our gr
 <br>
 <br>
 <br>
-<img src="pot.png" width="500" height="500">
+<img class="image" src="pot.png" width="500" height="500">
 <br>
 
+<div class="section">
 <p3 class="middle">
   <br>
   Our product is made from aircraft-grade aluminum, expertly designed TSMC Microchips embedded with the most efficient and reliable microprocessor on the market. 
@@ -73,8 +82,15 @@ Well, introducing Autosprout your plant will never be malnourished again! Our gr
   Our Design is sleek, modern, and adaptable which means it is able to perform its task to the utmost perfection regardless of difficult circumstances.
   <br>
   <br>
+  </p3>
+  <hr>
+</div>
+<br>
+<br>
+<p3 class="middle">
   <b>Some features of our product include: </b>
   </p3>
+
   
   <ul class="list"> 
   <li>AI Plant detection (figuring out what type of plant)</li>
@@ -111,7 +127,7 @@ Well, introducing Autosprout your plant will never be malnourished again! Our gr
   <br>
 </p3>
 
-<img src="Blueprint.png" width="500" height="500">
+<img class="image" src="Blueprint.png" width="500" height="500">
 
 <p4 class="middle">
   <br>
@@ -147,22 +163,23 @@ Well, introducing Autosprout your plant will never be malnourished again! Our gr
 </p4>
 
 
-<p4 class="middle"><b>Where to find Autosprout:</b></p4>
+<p4 class="middle"><b>Where to find Autosprout:</b>
+  <br>
+  <br>
 
-<ul class="list">
-<img src="walmart logo.png" width="40px" length="40px"> <li>Walmart</li>
+<img src="walmart logo.png" width="40px" length="40px"> Walmart
 
-<img src="costco.png" width="40px" length="40px"> <li>Costco</li>
+<img src="costco.png" width="40px" length="40px"> Costco
 
-<img src="Sams_Club.svg.png" width="40px" length="40px"> <li>Sam's Club</li>
+<img src="Sams_Club.svg.png" width="40px" length="40px"> Sam's Club
 
-<img src=THD_logo.jpg width="40px" length="40px"> <li>Home Depot</li>
+<img src=THD_logo.jpg width="40px" length="40px"> Home Depot
 
-<img src="icon_rona-192.png" width="40px" length="40px"><li>Rona</li>
+<img src="icon_rona-192.png" width="40px" length="40px">Rona
 
-<img src="Lowes_Companies_Logo.svg.png" width="40px" length="40px"> <li>Lowe's</li>
+<img src="Lowes_Companies_Logo.svg.png" width="40px" length="40px"> Lowe's
 
-</ul>
+</p4>
 
 </body>
 </html>
