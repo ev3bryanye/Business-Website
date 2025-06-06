@@ -12,6 +12,7 @@ head {
 
 
 
+
 a {
   color: #40916c;
   text-decoration: none;
@@ -45,4 +46,10 @@ button:hover {
   background-color: #1da2405b;
   color: #f0fdf4;
   text-align: center;
+}
+
+.center {
+
+    text-align: center;
+
 }
