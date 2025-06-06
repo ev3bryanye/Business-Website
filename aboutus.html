@@ -32,6 +32,35 @@ function redirectToIndex() {
   color:#2d6a4f;
   text-align: center;
 }
+.review-container {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+}
+.review-card{
+  overflow:hidden;
+  position:relative;
+  width:150px;
+  height:150px;
+  border-radius:10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.review-card img {
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+.review-text {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  padding: 5px;
+  box-sizing: border-box;
+}
 </style>
       <h1 class="big">
         About Us
@@ -77,17 +106,36 @@ function redirectToIndex() {
           Product Testimonials
         </h2>
         <hr>
-        <p100>
-          Wow this product turned my plants from zero to hero! - Lady Gaga
-          <img src=""
-          One of the most influential products of the 21st Century! - Bill Gates
-          The Pinnacle of innovation! - Jensen Huang
-          My plants love it! - Dion's Mom
-          Approved. - Jason Bi
-          My favorite - Billionaire Samuel Lan
+        <div class="review-container">
+          <div class="review-card">
+            <div class="review-text">This product turned my plants from zero to hero! - Lady Gaga</div>
+              <img src="Lady Gaga plant.jpg" width="100px" length="100px">
+              </div>
+          <div class="review-card">
+            <div class="review-text">One of the most influential products of the 21st Century! - Bill Gates</div>
+              <img src="bill gates plant.avif" width="100px" length="100px">
+              </div>
+          <div class="review-card">
+            <div class="review-text">The Pinnacle of innovation! - Jensen Huang</div>
+          <img src="jensen huang plant.avif" width="100px" length="100px">
+              </div>
+          <div class="review-card">
+            <div class="review-text">My plants love it! - Dion's Mom</div>
+          <img src="Dion mom plant.webp" width="100px" length="100px">
+              </div>
+          <div class="review-card">
+            <div class="review-text">Approved. - Jason Bi</div>
+          <img src="jason plant.jpg" width="100px" length="100px">
+              </div>
+          <div class="review-card">
+            <div class="review-text">My favorite - Billionaire Samuel Lan</div>
+          <img src="samuel plant.jpg" width="100px" length="100px">
+              </div>
+          </div>
+        </body>
 
           <!-- five stars -->
-        </p100>
+      
 
     </body> 
 </html>
