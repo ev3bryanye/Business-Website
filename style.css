@@ -1,7 +1,7 @@
 body {
   background-color: #f0fdf4;
   color: #1b4332;            
-  font-family: sans-serif;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
   margin: 0;
   padding: 0;
 }
@@ -39,4 +39,10 @@ button:hover {
   max-width: 800px;
   margin: 2rem auto;
   padding: 1rem;
+}
+
+.section {
+  background-color: #1da2405b;
+  color: #f0fdf4;
+  text-align: center;
 }
