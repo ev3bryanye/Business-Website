@@ -9,7 +9,9 @@ head {
   background-color: #2d6a4f;
 }
 
-
+p {
+    margin-left: 20px;
+  }
 
 
 
@@ -36,10 +38,32 @@ button:hover {
   background-color: #1b4332;
 }
 
+.big{
+  font-size: 60px;
+  font-family:fantasy;
+  color: #2d6a4f; 
+  text-align: center;
+  text-shadow:2px 2px darkseagreen;
+}
+
 .container {
   max-width: 800px;
   margin: 2rem auto;
   padding: 1rem;
+}
+
+.image {
+  margin-left:475px;
+  margin-right:475px;
+  border-radius:10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.qr {
+  float:right;
+  margin-right:20px;
+  border-radius:10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .section {

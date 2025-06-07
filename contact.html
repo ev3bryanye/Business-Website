@@ -2,19 +2,35 @@
 <html>
     <style>
         .info{
-            font-size: 30px;
+            font-size: 25px;
             color:#2d6a4f;
+            text-align: center;
         }
+        
     </style>
     
     <head>
         <link rel="stylesheet" href="style.css">
         <title>Contact me</title>
-      </head>
+    <button onclick="redirectToIndex()">Homepage</button>
+    <button onclick="redirectToAboutus()">About Us</button>
+    <button onclick="redirectToContact()">Contact Us</button>
+      <script>
+function redirectToAboutus() {
+    window.location.href = 'aboutus.html'
+}
+function redirectToContact() {
+    window.location.href = 'contact.html'
+}
+function redirectToIndex() {
+  window.location.href = 'index.html'
+}
+</script>
+    </head>
       <body>
       
-      <h2>Contact Form</h2>
-      <form action="https://formsubmit.co/348817800@gapps.yrdsb.ca" method="POST">
+      <h2 class="big">Contact Form</h2>
+      <form class="center" action="https://formsubmit.co/348817800@gapps.yrdsb.ca" method="POST">
         <!-- Anti-spam: hide this field from users -->
         <input type="hidden" name="_captcha" value="false">
       
@@ -36,15 +52,15 @@
       </body>
       <br>
       <hr>
-      <p16 class="info">
+      <p class="info">
         <br>
-        Email: Autosprout@gmail.com
+        <img src="email.png" width="30px" length="30px">Email: Autosprout@gmail.com
         <br>
-        Phone Number: 999-999-9999
+        <img src="phone.png" width="30px" length="30px">Phone Number: 999-999-9999
         <br>
-        Instagram: @autosprout
-      </p16>
+        <img src="insta.png" width="30px" length="30px">Instagram: @autosprout
+      </p>
       <footer>
-        <!-- QR Code-->
+        <img class="qr" src="RLKrNI.jpg" width = "100px" length="100px">
       </footer>
 </html>

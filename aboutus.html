@@ -2,9 +2,9 @@
 <html>
   <link rel="stylesheet" href="style.css"> 
   <head> 
+  <button onclick="redirectToIndex()">Homepage</button>
   <button onclick="redirectToAboutus()">About Us</button>
-<button onclick="redirectToContact()">Contact Us</button>
-<button onclick="redirectToIndex()">Homepage</button>
+  <button onclick="redirectToContact()">Contact Us</button>
       <script>
 function redirectToAboutus() {
     window.location.href = 'aboutus.html'
@@ -44,11 +44,15 @@ gap: 20px;
   height:150px;
   border-radius:10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  margin-left:60px;
 }
 .review-card img {
   width:100%;
   height:100%;
   object-fit: cover;
+}
+.stars {
+  margin:auto;
 }
 .review-text {
   position: absolute;
@@ -60,6 +64,11 @@ gap: 20px;
   font-size: 12px;
   padding: 5px;
   box-sizing: border-box;
+}
+.mission {
+  margin-left: 150px;
+  border-radius:10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 </style>
       <h1 class="big">
@@ -74,7 +83,7 @@ gap: 20px;
         <!--add image of bryan and dion here-->
 
         
-       <p1>
+       <p>
         In 2020, we noticed an uptick in plant ownership during the pandemic, since then, 
         <br>
         the interest in gardening/growing plants has been consistently growing. 
@@ -86,22 +95,22 @@ gap: 20px;
         <br>
         After four years of development, we finally released our product to the public in 2024. 
         Since then, we sold hundreds of thousands of autosprouts in the past year and hope to continue to serve the plant-growing community. 
-       </p1> 
+       </p> 
         <hr>
         </div>
         <h2 class="center">
           Our Mission
         </h2>
-        <p20>
+        <p>
           In the past two years, we have noticed the impact of climate change on third world countries where millions of people are struggling every day to find drinking water. 
           This hits close to home since Bryan's great uncle grew up in Africa and would often go days without clean water. We promise to bring water to struggling people in Africa 
           since if even plants have access to clean water, we feel we need to make sure every human on Earth has it too. 
-        </p20>
+        </p>
         <br>
         
-
-        <!-- image of struggling african kids-->
-        <!-- image of wells-->
+        <img class="mission" src="food.jpg" width ="400px" length="400px">
+        <img class="mission" src="well.png" width="540px" length="540px">
+      
         <hr>
         <h2 class="center">
           Product Testimonials
@@ -132,8 +141,11 @@ gap: 20px;
             <div class="review-text">My favorite - Billionaire Samuel Lan</div>
           <img src="samuel plant.jpg" width="100px" length="100px">
               </div>
-              <img src="five stars.png" width="350" length="100px">
+              <img class="stars" src="five stars.png" width="350" length="100px">
           </div>
         </body>
     </body> 
+    <footer>
+        <img class="qr" src="RLKrNI.jpg" width = "100px" length="100px">
+    </footer>
 </html>
