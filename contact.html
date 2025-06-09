@@ -30,18 +30,20 @@ function redirectToIndex() {
       <body>
       
       <h2 class="big">Contact Form</h2>
-      <form class="center" action="https://formsubmit.co/348817800@gapps.yrdsb.ca" method="POST">
-        <!-- Anti-spam: hide this field from users -->
-        <input type="hidden" name="_captcha" value="false">
-      
-        <!-- Optional redirect after form is submitted -->
-        <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html">
+      <form class="center" action="mailto:Autosprout@gmail.com" method="POST" enctype="text/plain" >
       
         <label>Your Name:</label><br>
         <input type="text" name="name" required><br><br>
       
         <label>Your Email:</label><br>
         <input type="email" name="email" required><br><br>
+
+        <label>Desired Model</label><br>
+        <select id="model" name="model">
+        <option value="" disabled selected>Choose a Model</option>
+        <option value="Base Model">Base Model</option>
+        <option value="Comprehensive Model">Comprehensive Model</option>
+    </select><br><br>
       
         <label>Your Message:</label><br>
         <textarea name="message" rows="5" required></textarea><br><br>
